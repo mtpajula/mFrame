@@ -1,0 +1,130 @@
+
+html {
+    overflow-y: scroll;
+}
+
+body#mSkeleton {
+    font-family: ubuntu;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.mWidget {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    overflow:auto;
+    display: block;
+}
+/*
+.mMenu {
+    border-bottom:1px solid red;
+}
+
+
+.info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    color:white;
+    background-color: #FF4040;
+    border-right:4px solid red;
+    border-left:4px solid red;
+    border-bottom:4px solid red;
+}
+
+.info .close {
+    float: right;
+    color: red;
+}
+* */
+
+#mContainer {
+    min-height: 100%;
+    height: auto;
+}
+/*
+.mWidget h3 {
+    color: red;
+}
+
+.footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+*/
+
+.mMenu {
+    margin: 1em;
+    display: block;
+    overflow:auto;
+    padding: 1em;
+}
+
+.mMenu ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+.mMenu ul li {
+    float: left;
+    padding: 0.7em;
+    margin: 5px;
+}
+
+/*
+.mMenu li a {
+    text-decoration: none;
+    
+}
+*/
+
+.mMenu a:link {color:white;}      /* unvisited link */
+.mMenu a:visited {color:white;}  /* visited link */
+.mMenu a:hover {color:white;}  /* mouse over link */
+.mMenu a:active {color:white;}  /* selected link */
+
+/*
+.mForm {
+    margin: 1em;
+    display: block;
+    overflow:auto;
+    padding: 1em;
+}
+*/
+.mForm .mFormDiv {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.mForm .mFormError {
+    color:red;
+}
+
+.mForm textarea {
+    width:80%;
+    height:100px;
+}
+
+.mTable table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+.mTable table th {
+    color: rgb(0, 136, 204);
+    text-decoration: none;
+}
+
+.mTable table th, .mTable table td  {
+    text-align:left;
+    padding: 5px;
+}
+

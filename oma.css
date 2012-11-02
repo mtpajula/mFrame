@@ -1,0 +1,15 @@
+
+.formdata {
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 1em;
+    margin: 1em;
+}
+
+.formdata .area {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    margin: 1em;
+}
